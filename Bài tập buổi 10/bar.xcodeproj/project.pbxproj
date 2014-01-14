@@ -27,6 +27,8 @@
 		E26BAAF61884DEDA00A5F466 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E26BAAF51884DEDA00A5F466 /* close.png */; };
 		E26C8ECD187FA67F00F92230 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E26C8ECC187FA67F00F92230 /* HomeVC.m */; };
 		E26C8ECF187FA7FB00F92230 /* banner in Resources */ = {isa = PBXBuildFile; fileRef = E26C8ECE187FA7FB00F92230 /* banner */; };
+		E2D3507D18852B200034D15E /* find.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D3507C18852B200034D15E /* find.png */; };
+		E2D3508218852E880034D15E /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D3508118852E880034D15E /* SearchVC.m */; };
 		E2D60988187E963D00C86125 /* CategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D60987187E963D00C86125 /* CategoryVC.m */; };
 		E2FDC230187E38E700A1353E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FDC22F187E38E700A1353E /* Foundation.framework */; };
 		E2FDC232187E38E700A1353E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FDC231187E38E700A1353E /* CoreGraphics.framework */; };
@@ -87,6 +89,9 @@
 		E26C8ECB187FA67F00F92230 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = ../bar/HomeVC.h; sourceTree = "<group>"; };
 		E26C8ECC187FA67F00F92230 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = ../bar/HomeVC.m; sourceTree = "<group>"; };
 		E26C8ECE187FA7FB00F92230 /* banner */ = {isa = PBXFileReference; lastKnownFileType = folder; path = banner; sourceTree = "<group>"; };
+		E2D3507C18852B200034D15E /* find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find.png; sourceTree = "<group>"; };
+		E2D3508018852E880034D15E /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
+		E2D3508118852E880034D15E /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
 		E2D60986187E963D00C86125 /* CategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryVC.h; sourceTree = "<group>"; };
 		E2D60987187E963D00C86125 /* CategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryVC.m; sourceTree = "<group>"; };
 		E2FDC22C187E38E700A1353E /* bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +159,8 @@
 				E21BAAF71880F32400E00BC7 /* RegisterVC.m */,
 				E2594E2418813BE0002453AF /* PopUp.h */,
 				E2594E2518813BE0002453AF /* PopUp.m */,
+				E2D3508018852E880034D15E /* SearchVC.h */,
+				E2D3508118852E880034D15E /* SearchVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 		E2FDC223187E38E700A1353E = {
 			isa = PBXGroup;
 			children = (
+				E2D3507C18852B200034D15E /* find.png */,
 				E26BAAF51884DEDA00A5F466 /* close.png */,
 				E2594E2718813CEF002453AF /* sda */,
 				E2594E2018813B3D002453AF /* back1.png */,
@@ -368,6 +376,7 @@
 				E21BAAF51880ECA100E00BC7 /* buy.png in Resources */,
 				E2FEF31A187FF85400094045 /* Shop in Resources */,
 				E21BAAFC188103BA00E00BC7 /* back.png in Resources */,
+				E2D3507D18852B200034D15E /* find.png in Resources */,
 				E2FEF31E1880060D00094045 /* CONTINETAL.jpg in Resources */,
 				E2FDC274187E5EA200A1353E /* arrow1.png in Resources */,
 				E21BAAFA1880FA6700E00BC7 /* register.png in Resources */,
@@ -393,6 +402,7 @@
 				E2FDC240187E38E700A1353E /* AppDelegate.m in Sources */,
 				E2D60988187E963D00C86125 /* CategoryVC.m in Sources */,
 				E21BAAF81880F32400E00BC7 /* RegisterVC.m in Sources */,
+				E2D3508218852E880034D15E /* SearchVC.m in Sources */,
 				E26C8ECD187FA67F00F92230 /* HomeVC.m in Sources */,
 				E2FDC23C187E38E700A1353E /* main.m in Sources */,
 				E2594E2618813BE0002453AF /* PopUp.m in Sources */,
